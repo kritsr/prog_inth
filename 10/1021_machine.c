@@ -2,10 +2,7 @@
 #define CHILD_L_i(i) (2 * (i) + 1)
 #define CHILD_R_i(i) (2 * (i) + 2)
 #define PARENT_i(i) (((i)-1) / 2)
-#define SWAP(a, b) \
-  a ^= b;          \
-  b ^= a;          \
-  a ^= b;
+#define SWAP(a,b) {a^=b;b^=a;a^=b;}
 int heap[300000];
 int heap_n = 0;
 int tmp;

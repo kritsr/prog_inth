@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define SWAP(A, B) \
-  A ^= B;          \
-  B ^= A;          \
-  A ^= B;
+#define SWAP(a,b) {a^=b;b^=a;a^=b;}
 
 int print(char begin, char *a, int n)
 {
