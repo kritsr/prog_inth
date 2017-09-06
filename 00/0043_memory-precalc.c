@@ -4,7 +4,8 @@
 
 int main()
 {
-  for (int n = 1; n <= 300; n++)
+  unsigned long long result[300] = {};
+  for (int n = 300; n <= 300; n++)
   {
     unsigned long long r = 0;
     for (int i = 1; i <= n; i++)
@@ -17,7 +18,12 @@ int main()
         }
       }
     }
-    printf("%d: %lu\n", n, r);
+    result[n-1] = r;
   }
+  printf("{%lu", result[0]);
+  for (int i = 1; i < 300; i++){
+    printf(",%lu", result[i]);  
+  }
+  printf("}\n");
   return 0;
 }
