@@ -71,7 +71,7 @@ int solve(int v, int a[], int n, int N)
         i += s;
       else{
         return a[i + 1] - a[i];
-      } 
+      }
       if (s >= 2)
         s /= 2;
     }
