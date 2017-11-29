@@ -59,7 +59,6 @@ int main()
     }
     if (floor[ladders[i].to] <= K && ladders[i].to > max)
       max = ladders[i].to;
-    
   }
   printf("%d\n", max);
   return 0;
