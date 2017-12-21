@@ -23,10 +23,8 @@ Interval insert (ITNode *root, ITNode *n) {
   if (i.low < root->ri.low) root->ri.low = i.low;
   return i;
 }
-int start[100000];
-int si = 0;
-int end_a[100000];
-int ei = 0;
+int start[100000], si = 0;
+int end_a[100000], ei = 0;
 void prepOverlap(ITNode *n, Interval i) {
   if (n->left != NULL && n->left->ri.high >= i.low)
     prepOverlap(n->left, i);
@@ -37,7 +35,7 @@ void prepOverlap(ITNode *n, Interval i) {
   if (n->right != NULL && n->right->ri.low <= i.high)
     prepOverlap(n->right, i);
 }
-int check(int K){
+bool check(int K){
   sort(end_a, end_a+ei);
   int i = 0, j = 0, k = 0;
   while (k < K && i < si && j < ei) {
@@ -54,7 +52,8 @@ int main() {
   ios::sync_with_stdio(false);
   cin >> N >> K;
   ITNode root[N];
-  printf("yes\n");
+  cin.tie(0); // Unless untied, use of cin will flush cout.
+  cout << "yes\n";
   for (int i = 0; i < N; i++) {
     cin >> root[i].i.low >> root[i].i.high;
     root[i].ri.high = root[i].i.high;
@@ -64,11 +63,9 @@ int main() {
       si = ei = 0;
       prepOverlap(root, root[i].i);
       if (check(K)) {
-        printf("yes\n");
+        cout << "yes\n";
         insert(root, root+i);
-      } else {
-        printf("no\n");
-      }
+      } else cout << "no\n";
     }
   }
 }
