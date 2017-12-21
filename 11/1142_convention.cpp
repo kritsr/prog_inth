@@ -55,7 +55,6 @@ int main() {
   cin >> N >> K;
   ITNode root[N];
   printf("yes\n");
-  string s = "";
   for (int i = 0; i < N; i++) {
     cin >> root[i].i.low >> root[i].i.high;
     root[i].ri.high = root[i].i.high;
