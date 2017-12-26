@@ -73,5 +73,4 @@ int main()
     }
     printf("%.03f\n", p);
   }
-  return 0;
 }

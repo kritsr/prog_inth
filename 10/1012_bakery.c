@@ -41,5 +41,4 @@ int main()
     A += (E+7) / 8;
   }
   printf("%d\n", A);
-  return 0;
 }

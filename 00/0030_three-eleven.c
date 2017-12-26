@@ -18,5 +18,4 @@ int main()
     m11b = tmp;
   }
   printf("%d %d\n", m3, (11 + *m11b - *m11a) % 11);
-  return 0;
 }

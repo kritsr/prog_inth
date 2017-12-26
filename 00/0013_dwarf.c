@@ -26,5 +26,4 @@ int main()
       printf("%d\n", input[i]);
     }
   }
-  return 0;
 }

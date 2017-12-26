@@ -10,5 +10,4 @@ int main(){
     b *= 2;
   }
   printf("%d\n", d);
-  return 0;
 }

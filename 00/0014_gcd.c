@@ -10,5 +10,4 @@ int main()
     SWAP(a, b);
   }
   printf("%d\n", a);
-  return 0;
 }

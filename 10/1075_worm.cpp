@@ -36,5 +36,4 @@ int main() {
     mdata = data;
   }
   cout << mdata << ' ' << mcost << endl;
-  return 0;
 }

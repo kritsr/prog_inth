@@ -21,5 +21,4 @@ int main() {
     }
   } else ans = N;
   cout << ans << endl;
-  return 0;
 }

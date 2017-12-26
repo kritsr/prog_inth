@@ -29,5 +29,4 @@ int main(){
     a = lcm(a,b);
   }
   printf("%d\n", a);
-  return 0;
 }

@@ -13,5 +13,4 @@ int main()
     t /= i;
   }
   printf("%lu\n", t);
-  return 0;
 }

@@ -43,5 +43,4 @@ int main(){
     if (max > 0) printf("%d\n", num);
     else break;
   }
-  return 0;
 }

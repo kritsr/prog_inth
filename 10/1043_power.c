@@ -21,5 +21,4 @@ int main(){
     }
     if (no) printf("NO\n");
   }
-  return 0;
 }

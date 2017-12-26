@@ -20,5 +20,4 @@ int main() {
     }
   }
   printf("%s\n", K);
-  return 0;
 }

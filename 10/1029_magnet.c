@@ -98,5 +98,4 @@ int main()
     scanf("%d", &a);
     printf("%d\n", solve(a, f, n, N));
   }
-  return 0;
 }

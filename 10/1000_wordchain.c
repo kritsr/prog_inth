@@ -31,5 +31,4 @@ int main()
   printf("%s\n", s1);
   free(s1);
   free(s2);
-  return 0;
 }

@@ -45,5 +45,4 @@ int main()
     }
   }
   printf("%d %d\n%c\n", x, y, dir_n[d]);
-  return 0;
 }

@@ -13,7 +13,6 @@ int main()
     bee[i][1] = bee[i - 1][0];
     bee[i][0] = 1 + bee[i - 1][0] + bee[i - 1][1];
   }
-
   int y;
   scanf("%d", &y);
   while (y != -1)
@@ -21,6 +20,4 @@ int main()
     printf("%d %d\n", bee[y][0], 1 + bee[y][0] + bee[y][1]);
     scanf("%d", &y);
   }
-
-  return 0;
 }

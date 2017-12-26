@@ -45,5 +45,4 @@ int main() {
       }
   if (z == 0) z = z0;
   printf("%d %d %d\n", x, y, z);
-  return 0;
 }

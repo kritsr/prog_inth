@@ -16,5 +16,4 @@ int main(){
     a[i] = (2*a[i-1]-a[j++]+2009)%2009;
   }
   printf("%d\n", a[n-1]);
-  return 0;
 }

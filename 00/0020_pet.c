@@ -14,5 +14,4 @@ int main()
     }
   }
   printf("%d %d\n", j, k);
-  return 0;
 }

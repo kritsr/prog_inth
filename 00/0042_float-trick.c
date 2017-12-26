@@ -11,5 +11,4 @@ int main(){
     for (unsigned long long i = 0; i < e; i++) x *= 2;
     printf("%.0LF\n", x);
   }
-  return 0;
 }

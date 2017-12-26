@@ -61,5 +61,4 @@ int main()
       max = ladders[i].to;
   }
   printf("%d\n", max);
-  return 0;
 }

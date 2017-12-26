@@ -26,7 +26,6 @@ int main() {
   for (int i = 0; i < N; i++) {
     printf("%d ", m[i]);
   }
-  return 0;
 }
 
 //qsort
@@ -71,7 +70,7 @@ void countSort(int arr[], int n, int exp)
 
 // The main function to that sorts arr[] of size n using
 // Radix Sort
-void radixsort(int arr[], int n)
+void sort(int arr[], int n)
 {
     // Find the maximum number to know number of digits
     int m = getMax(arr, n);

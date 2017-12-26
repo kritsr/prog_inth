@@ -33,11 +33,10 @@ int main()
     for (int h = obs[x] + 1; h < H && h <= obs[x] + bricks[x]; h++){
       map[h][x] = '#';
     }
-      
+
   }
   for (int h = H - 1; h >= 0; h--)
   {
     puts(map[h]);
   }
-  return 0;
 }

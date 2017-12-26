@@ -27,7 +27,6 @@ int main(){
     n++;
   }
   printf("%d %d\n", n, r);
-  return 0;
 }
 
 // Can be optimized to find from last index, desc

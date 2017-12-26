@@ -44,5 +44,4 @@ int main(){
     if (val > max) max = val;
   }
   printf("%d\n", max);
-  return 0;
 }

@@ -23,5 +23,4 @@ int main(){
     }
   }
   printf("%d\n", ans[K-1]);
-  return 0;
 }

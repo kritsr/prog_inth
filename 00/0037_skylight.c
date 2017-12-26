@@ -12,5 +12,4 @@ int main()
   cost = cost / C + 1;
   cost += L * K;
   printf("%d\n", cost);
-  return 0;
 }

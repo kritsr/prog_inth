@@ -58,5 +58,4 @@ int main() {
   } else {
     printf("%d L\n", maxLi + 1);
   }
-  return 0;
 }

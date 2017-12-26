@@ -18,5 +18,4 @@ int main(){
     ans += (unsigned long long)tail[A/2] * (tail[A/2]-1) / 2;
   }
   printf("%lld\n", ans);
-  return 0;
 }

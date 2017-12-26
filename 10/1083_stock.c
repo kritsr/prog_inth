@@ -19,5 +19,4 @@ int main(){
     scanf("%d %d", &a, &b);
     printf("%d\n", p[b-1] - p[a-1]);
   }
-  return 0;
 }

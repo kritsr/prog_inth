@@ -42,5 +42,4 @@ int main(){
   scanf("%d\n", &in);
   while (!isPrime(in = nextPalindrome(in))) in++;
   printf("%d\n", in);
-  return 0;
 }

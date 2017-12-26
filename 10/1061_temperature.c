@@ -32,5 +32,4 @@ int main() {
     }
   }
   printf("%d\n", findMax(x, y));
-  return 0;
 }

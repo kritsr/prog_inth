@@ -19,5 +19,4 @@ int main() {
     printf("%c", stack[i]);
   }
   printf("\n");
-  return 0;
 }

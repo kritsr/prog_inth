@@ -53,5 +53,4 @@ int main()
   double y = (double)y1 + (double)y2 / sqrt(2);
   printf("%.3f %.3f\n", x, y);
   printf("%.3f\n", sqrt(x * x + y * y));
-  return 0;
 }

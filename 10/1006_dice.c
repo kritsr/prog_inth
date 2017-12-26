@@ -62,5 +62,4 @@ int main()
     }
     printf("%d ", dice[1]);
   }
-  return 0;
 }

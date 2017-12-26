@@ -33,5 +33,4 @@ int main()
       printf("%s%s", i2, i1);
     }
   }
-  return 0;
 }

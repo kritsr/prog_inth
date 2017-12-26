@@ -22,8 +22,7 @@ int main()
   }
   printf("{%lu", result[0]);
   for (int i = 1; i < 300; i++){
-    printf(",%lu", result[i]);  
+    printf(",%lu", result[i]);
   }
   printf("}\n");
-  return 0;
 }

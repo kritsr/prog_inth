@@ -13,5 +13,4 @@ int main()
   } else if (n & 1)
     r += -2 + 2 * sqrt(3);
   printf("%0.6lf\n", r);
-  return 0;
 }

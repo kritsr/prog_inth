@@ -84,5 +84,4 @@ int main()
       printPermutations(begin, ok, n - 1);
     }
   }
-  return 0;
 }

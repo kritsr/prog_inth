@@ -36,7 +36,7 @@ int main()
       int a = sum[j - 1];
       int b = sum[k - 1] - sum[j - 1];
       int c = sum[N - 1] - sum[k - 1];
-      
+
       int diff = max_diff(a,b,c);
       if (diff < mindiff){
         mindiff = diff;
@@ -50,5 +50,4 @@ int main()
     }
   }
   printf("%d %d", bi + 1, ci + 1);
-  return 0;
 }

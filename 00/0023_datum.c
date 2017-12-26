@@ -13,5 +13,4 @@ int main()
   result += day;
   result %= 7;
   printf("%s\n", dayName[result]);
-  return 0;
 }

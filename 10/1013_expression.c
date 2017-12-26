@@ -53,7 +53,6 @@ int main()
       strcpy(exp, "null");
     printf("%s=%s\n", output, exp);
   }
-  return 0;
 }
 int op(int x, char *exp, char op, char *out)
 {

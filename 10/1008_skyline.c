@@ -24,5 +24,4 @@ int main()
     }
     h = skyline[i];
   }
-  return 0;
 }

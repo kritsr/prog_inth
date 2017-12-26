@@ -33,8 +33,9 @@ int main()
   if (s3 != exp || s4 != exp)
   {
     printf("No\n");
-    return 0;
   }
-  printf("Yes\n");
-  return 0;
+  else
+  {
+    printf("Yes\n");
+  }
 }

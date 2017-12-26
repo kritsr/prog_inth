@@ -9,7 +9,7 @@ int main()
   for (int i = 0; i < N; i++)
   {
     scanf("%d", input + i);
-    
+
     if (sum < 0 && input[i] > 0)
     {
       sum = input[i];
@@ -36,6 +36,4 @@ int main()
   {
     printf("Empty sequence\n");
   }
-
-  return 0;
 }

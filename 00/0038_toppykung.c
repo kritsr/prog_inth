@@ -57,5 +57,4 @@ int main()
     f = f->next;
     free(s);
   }
-  return 0;
 }

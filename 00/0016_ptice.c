@@ -38,5 +38,4 @@ int main()
   (na == m) && printf("Adrian\n");
   (nb == m) && printf("Bruno\n");
   (nc == m) && printf("Goran\n");
-  return 0;
 }

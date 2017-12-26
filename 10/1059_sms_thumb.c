@@ -40,6 +40,4 @@ int main() {
     word[j] = 0;
     printf("%s\n", word);
   } else printf("null\n");
-
-  return 0;
 }

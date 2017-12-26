@@ -71,5 +71,4 @@ int main()
       if (player[i].score == m)
         printf("%d\n", i + 1);
   }
-  return 0;
 }

@@ -28,5 +28,4 @@ int main()
     diff = MIN(DIFF(sum,prod), diff);
   }
   printf("%d\n", diff);
-  return 0;
 }

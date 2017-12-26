@@ -36,5 +36,4 @@ int main()
   }
   in1[max_index + max_len] = 0;
   printf("%s\n", in1 + max_index);
-  return 0;
 }

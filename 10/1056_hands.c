@@ -44,5 +44,4 @@ int main(){
     sum += A[i];
   }
   printf("%d\n", sum);
-  return 0;
 }
